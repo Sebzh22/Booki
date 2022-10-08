@@ -1,3 +1,6 @@
+@import url("header.css");
+
+
 *, *:after, *:before{
     box-sizing: border-box;
     -webkit-box-sizing:border-box;
@@ -358,4 +361,16 @@
 *{
     font-family: 'Raleway', sans-serif;
 }
-@import url("header.css");
+
+a:hover{
+  cursor: default;
+}
+
+
+@media screen and (max-width: 992px) {
+  
+}
+
+@media screen and (max-width: 768px) {
+  
+}

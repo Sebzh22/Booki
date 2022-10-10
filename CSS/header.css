@@ -1,16 +1,27 @@
 nav {
+    width: 91%;
+    margin-left: auto;
+    margin-right: auto;  
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     /*border: solid black 1px;*/
 }
 
 nav img{
     height: 19px;
-    margin: 44px 55px;
+    margin: 44px 0px;
 }
 
 nav ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     list-style: none;
 }
@@ -36,11 +47,19 @@ nav a{
 
 @media screen and (max-width: 768px) {
   nav{
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 
   nav li :hover{
     border-top: none;
     border-bottom: solid #0065FC 3px;
+  }
+
+  nav ul{
+    /*border: solid black 2px;*/
+    width: 100%;
   }
 }

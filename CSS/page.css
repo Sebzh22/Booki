@@ -10,10 +10,25 @@
     padding: 0 50px;
 }
 
-h4{
+h1{
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+
+h2{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+h3{
     font-size: 18px;
     font-weight: 700;
     padding-bottom: 20px;
+}
+
+p{
+    font-size: 16px;
 }
 
 a{
@@ -27,4 +42,14 @@ a:hover{
 li{
     font-size: 16px;
     font-weight: 400;
+}
+
+/* Media Query */
+
+@media all and (max-width: 768px) {
+
+.wrapper{
+    margin: auto;
+    padding: 0 20px;
+}
 }

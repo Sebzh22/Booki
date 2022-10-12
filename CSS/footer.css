@@ -34,12 +34,11 @@ footer a{
 
 /* Media Query */
 
-@media screen and (max-width: 768px) {
+@media all and (max-width: 768px) {
     footer{
         flex-direction: column;
         align-items:flex-start;
         padding-left: 30px;
-        width: 100%;
     }
 
     #footer{
@@ -52,6 +51,7 @@ footer a{
     }
 
     footer .footer-first-subcontent{
-    padding-top: 45px;
+        padding-top: 45px;
+        padding-left: 0px;
     }
 }

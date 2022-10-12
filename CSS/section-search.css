@@ -17,3 +17,40 @@ p{
     line-height: 19px;
     margin: 0;
 }
+
+form{
+    display: flex;
+    flex-direction: raw;
+    padding: 20px 0 46px 0;
+}
+
+form i{
+    text-align: center;
+    width: 50px;
+    height: 49px;
+    background-color: #f2f2f2;
+    border: solid #f2f2f2 1px;
+    border-radius: 15px 0 0 15px;
+}
+
+#search{
+    height: 49px;
+    border: solid #f2f2f2 1px;
+}
+
+.bouton-search{
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    width: 132px;
+    height: 49px;
+    padding: 15px 16px 15px 16px;
+    background-color: #0065FC;
+    border: solid #0065FC 1px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+@media screen and (max-width: 768px) {
+    
+}

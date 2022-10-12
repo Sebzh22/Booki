@@ -1,65 +1,88 @@
-nav {
-    width: 91%;
-    margin-left: auto;
-    margin-right: auto;  
-    display: -webkit-box;
-    display: -ms-flexbox;
+header{
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    /*border: solid black 1px;*/
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-nav img{
+header #logo-container{
+    flex-grow: 1;
+    padding-top: 44px;
+}
+
+.logo{
     height: 19px;
-    margin: 44px 0px;
+    width: 61.09px;
 }
 
-nav ul{
-    display: -webkit-box;
-    display: -ms-flexbox;
+header nav ul{
     display: flex;
+    flex-direction: row;
+    width: 408px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+header nav li a{
+    padding-top: 46px;
+    display: block;
+}
+
+header nav li{
     list-style: none;
 }
 
-nav li{
-    font-size: 16px;
-    font-weight: 400;
-    margin: 0 77px 0 0px;
-}
-
-nav li :hover{
-    font-weight: 500;
-    color: #0065FC;
-    padding-top: 42px;
-    border-top: solid #0065FC 2px;
-}
-
-nav a{
-    color: black;
+header a{
     text-decoration: none;
+    color: black;
 }
 
+header nav a:hover{
+    border-top: 2px solid #0065FC;
+    color: #0065FC;
+    font-weight: 500;
+}
 
-@media screen and (max-width: 768px) {
-  nav{
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
+/* Media Query*/
 
-  nav li :hover{
-    border-top: none;
-    border-bottom: solid #0065FC 3px;
-  }
+@media only all and (max-width: 768px) {
 
-  nav ul{
-    /*border: solid black 2px;*/
-    width: 100%;
-  }
+    #head{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    header nav{
+        order: 2;
+        width: 100%;
+    }
+
+    header nav ul{
+        width: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+    header nav li{
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        padding-bottom: 23px;
+        border-bottom: 3px solid #f2f2f2;
+    }
+
+    header nav li:hover{
+        border-bottom: 3px solid #0065FC;
+    }
+
+    header nav a:hover{
+        border-top: none;
+        color: #0065FC;
+    }
+
+    header #logo-container{
+        display: flex;
+        justify-content: center;
+        padding-top: 21px;
+    }
 }

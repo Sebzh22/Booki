@@ -4,19 +4,13 @@
 @import url("footer.css");
 
 
-*, *:after, *:before{
+/* *, *:after, *:before{
     box-sizing: border-box;
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
-}
+} */
 
 /*Add custom elements*/
-
-
-
-a:hover{
-  cursor: default;
-}
 
 
 @media screen and (max-width: 992px) {

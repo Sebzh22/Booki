@@ -10,12 +10,18 @@
     padding: 0 50px;
 }
 
+h4{
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
 a{
 
 }
 
 a:hover{
-
+    cursor: default;
 }
 
 li{

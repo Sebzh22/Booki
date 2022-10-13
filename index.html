@@ -37,16 +37,38 @@
             <p>En plein centre-ville ou en pleine nature</p>
         </div>
         <div class="wrapper" id="search">
-            <form method="post" action="#">
-                <div class="search-icon"><i class="fa-solid fa-location-dot" id="search-icon"></i></div>
+            <form method="post" action="#" class="search-form">
+                <div class="search-icon">
+                    <span class="fa-solid fa-location-dot" id="search-icon"></span>
+                </div>
                 <input type="search" name="search" id="search-bar" placeholder="Ex : Marseille"/>
                 <button class="search-bouton-desktop">Rechercher</button>
-                <button class="search-bouton-mobile"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button class="search-bouton-mobile"><span class="fa-solid fa-magnifying-glass"></span></button>
                 
             </form>
         </div>
         <div class="wrapper" id="filter">
-            
+            <div class="filter">
+                <p class="filter-title">Filtres</p>
+                <div class="filter-elements">
+                    <div class="element">
+                        <span class="fa-solid fa-money-bill-wave"></span>
+                        <p class="filter-element-name">Économique</p>
+                    </div>
+                    <div class="element">
+                        <span class="fa-solid fa-person"></span>
+                        <p class="filter-element-name">Familial</p>
+                    </div>
+                    <div class="element">
+                        <span class="fa-solid fa-heart"></span>
+                        <p class="filter-element-name">Romantique</p>
+                    </div>
+                    <div class="element">
+                        <span class="fa-solid fa-dog"></span>
+                        <p class="filter-element-name">Animaux autorisés</p>
+                    </div>
+                </div> 
+            </div>      
         </div>
 
         <!-- Footer -->

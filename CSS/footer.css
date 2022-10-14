@@ -6,6 +6,10 @@ footer{
     background-color: #f2f2f2;
 }
 
+footer h3.footer-title{
+    padding-bottom: 20px;
+}
+
 footer .footer-subcontent{
     padding-top: 45px;
     padding-bottom: 58px;

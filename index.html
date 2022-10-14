@@ -39,7 +39,7 @@
         <div class="wrapper" id="search">
             <form method="post" action="#" class="search-form">
                 <div class="search-icon">
-                    <span class="fa-solid fa-location-dot" id="search-icon"></span>
+                    <span class="fa-solid fa-location-dot" id="location-icon"></span>
                 </div>
                 <input type="search" name="search" id="search-bar" placeholder="Ex : Marseille"/>
                 <button class="search-bouton-desktop">Rechercher</button>
@@ -70,12 +70,49 @@
                 </div> 
             </div>      
         </div>
+        <div class="wrapper" id="information">
+            <span class="fa-solid fa-info fa-2xs"></span>
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
 
+        <!--Cards Hotels content-->
+        <div class="wrapper" id="hotel-section">
+            <!--First section cards hotels result-->
+            <div class="hotel-result">
+                <div class="hotel-location-title">
+                    <h2>Hébergements à Marseille</h2>
+                </div>
+                <!--section with cards hotels-->
+                <div class="hotel-cards-section">
+                    <!--first card hotel-->
+                    <div class="hotel-card">
+                        <a href="#">
+                            <div class="hotel-card-image">
+                                <img src="/assets/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge La Canebière">
+                            </div>
+                            <div class="hotel-card-information">
+                                <h3>Auberge La Canebière</h3>
+                                <p>Nuit à partir de 25<strong>€</strong></p>
+                            </div>
+                            <div class="hotel-card-ranking">
+                                <span class="fa-solid fa-info"></span>
+                                <span class="fa-solid fa-info"></span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="hotel-show-more">
+                    <p class="show-more"><a href="#">Afficher Plus</a></p>
+                </div>
+            </div>
+        </div>
+
+        
         <!-- Footer -->
         <div class="wrapper" id="footer">
             <footer >
                 <div class="footer-subcontent footer-first-subcontent">
-                    <h3 class="footer-title">À propos</h3>
+                    <h4 class="footer-title">À propos</h4>
                     <ul>
                         <li><a href="#">Fonctionnement du site</a></li>
                         <li><a href="#">Conditions générales</a></li>
@@ -83,14 +120,14 @@
                     </ul>
                 </div>
                 <div class="footer-subcontent">
-                    <h3 class="footer-title">Nos hébergements</h3>
+                    <h4 class="footer-title">Nos hébergements</h4>
                     <ul>
                         <li><a href="#">Charte qualité</a></li>
                         <li><a href="#">Proposer votre hôtel</a></li>
                     </ul>
                 </div>
                 <div class="footer-subcontent footer-last-subcontent">
-                    <h3 class="footer-title">Assistance</h3>
+                    <h4 class="footer-title">Assistance</h4>
                     <ul>
                         <li><a href="#">Centre d'aide</a></li>
                         <li><a href="#">Nous contacter</a></li>

@@ -1,0 +1,61 @@
+.hotel-result{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+}
+
+div .hotel-location-title h2{
+    padding: 42px 0 23px 40px;
+}
+
+div .hotel-cards-section{
+    padding: 0 40px 40px 40px;
+}
+
+.hotel-card{
+    width: 246px;
+    height: 199px;
+    border-radius: 20px;
+    display: block;
+    background-color: #FFFFFF;
+}
+
+.hotel-card-image{
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 20px 0 0;
+}
+
+.hotel-card-image img{
+    width: 100%;
+    height: 124px;
+}
+
+#hotel-section a{
+    text-decoration: none;
+}
+
+.hotel-card-information{
+    color:black;
+    padding: 0 26px 9px 16px;
+}
+
+.hotel-card-information p{
+    font-size: 14px;
+    padding-top: 9px;
+}
+
+.hotel-card-ranking{
+    padding: 0 162px 11px 16px;
+}
+
+.hotel-show-more{
+    padding: 0 0 46px 44px;
+}
+
+p a{
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}

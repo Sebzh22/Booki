@@ -41,6 +41,28 @@ div .element:hover{
     background-color: #DEEBFF;
 }
 
+#information{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+}
+
+#information span{
+    border: 1px solid #D9D9D9;
+    border-radius: 25px;
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    text-align: center;
+    color: #0065FC;
+    margin-left: 9px;
+    margin-right: 11px;
+}
+
+#information p{
+    padding-bottom: 39px;
+}
+
 /* Media Query */
 
 @media all and (max-width: 768px) {

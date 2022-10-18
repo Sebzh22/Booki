@@ -2,10 +2,6 @@
     display: flex;
 }
 
-/* #hotel-section h2{
-    padding-bottom: 23px;
-} */
-
 #hotel-section a{
     color: black;
     text-decoration: none;
@@ -19,6 +15,10 @@
     color: #f2f2f2;
 }
 
+.fa-star{
+    font-size: 11px;
+}
+
 /* Parts left of section hotel */
 
 
@@ -28,51 +28,55 @@
     flex-direction: column;
     background-color: #f2f2f2;
     border-radius: 20px;
-    padding: 40px 40px;
+    padding: 2%;
     margin-right: 40px;
 }
-
-/* .hotel-section-left h2{
-    padding-bottom: 23px;
-} */
 
 .hotel-section{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row;
+    margin-top: 20px;
 }
 
 .hotel-cards-section{
     background-color: white;
-    width: 30%;
-    height: 189px;
+    width: 32%;
+    height: 199px;
     margin-bottom: 30px;
     border-radius: 20px;
-    border: 5px solid #FFFFFF;
+    /* border: 5px solid #FFFFFF; */
 }
 
 .hotel-section img{
+    box-sizing: border-box;
     width: 100%;
     height: 124px;
     object-fit: cover;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 20px 0 0;
 }
+
 
 .card1-body{
     padding-left: 11px;
+    height: 75px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .card1-price p{
     font-size: 14px;
+    /* padding: 9px 0; */
 }
 
 
 .card1-classification{
     display: flex;
     flex-wrap: nowrap;
+    padding-bottom: 11px;
 }
 
 
@@ -89,9 +93,6 @@
 .title-populaire i{
     color: #0065FC;
 }
-/* .hotel-section-right h2{
-    padding-bottom: 2px;
-} */
 
 .hotel-section-right{
     display: flex;
@@ -99,6 +100,40 @@
     flex-direction: column;
     background-color: #f2f2f2;
     border-radius: 20px;
-    padding: 40px 37px;
-    margin-right: 40px;
+    padding: 2%;
 }
+
+.hotel-populaire{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.hotel-populaire-cards{
+    background-color: white;
+    width: 100%;
+    height: 144px;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.populaire-card-containt{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.hotel-populaire-cards img{
+    height: 100%;
+    width: 100px;
+    border-radius: 20px 0 0 20px;
+}
+
+/* .card2-image{
+    flex: 1;
+    
+}
+
+#card-body-populaire{
+    flex: 2;
+} */

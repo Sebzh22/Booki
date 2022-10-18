@@ -1,0 +1,17 @@
+.section-activity{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.activity-title{
+    margin-top: 60px;
+}
+
+.activity-card{
+    background-color: aqua;
+    width: 23%;
+    height: 445px;
+    border-radius: 20px;
+    margin: 20px 0 60px 0;
+}

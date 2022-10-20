@@ -19,6 +19,11 @@
     font-size: 11px;
 }
 
+.show-more{
+    font-size: 18px;
+    font-weight: 700;
+}
+
 /* Parts left of section hotel */
 
 
@@ -28,7 +33,7 @@
     flex-direction: column;
     background-color: #f2f2f2;
     border-radius: 20px;
-    padding: 2%;
+    padding: 3%;
     margin-right: 40px;
 }
 
@@ -42,11 +47,16 @@
 
 .hotel-cards-section{
     background-color: white;
-    width: 32%;
+    width: 31%;
     height: 199px;
     margin-bottom: 30px;
     border-radius: 20px;
-    /* border: 5px solid #FFFFFF; */
+    transition: transform .1s;
+    box-shadow: 1px 1px 5px #d9d9d9;
+}
+
+.hotel-cards-section:hover{
+    transform: scale(1.05);
 }
 
 .hotel-section img{
@@ -100,7 +110,7 @@
     flex-direction: column;
     background-color: #f2f2f2;
     border-radius: 20px;
-    padding: 2%;
+    padding: 3%;
 }
 
 .hotel-populaire{
@@ -116,6 +126,12 @@
     height: 144px;
     border-radius: 20px;
     margin-top: 25px;
+    transition: transform .1s;
+    box-shadow: 1px 1px 5px #d9d9d9;
+}
+
+.hotel-populaire-cards:hover{
+    transform: scale(1.05);
 }
 
 .populaire-card-containt{
@@ -125,7 +141,7 @@
 }
 .hotel-populaire-cards img{
     height: 100%;
-    width: 100px;
+    width: 137px;
     border-radius: 20px 0 0 20px;
 }
 
@@ -137,3 +153,51 @@
 #card-body-populaire{
     flex: 2;
 } */
+
+
+/* Media Query */
+
+
+@media all and (max-width: 992px) {
+
+    .hotel-section-left{
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+    
+    
+    #hotel-section{
+        flex-direction: column;
+    }
+
+    .hotel-populaire{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+   
+}
+
+@media all and (max-width: 768px) {
+
+    .hotel-section-left{
+        order: 2;
+        background-color: white;
+        margin-bottom: 20px;
+    }
+
+    .hotel-section{
+        flex-direction: column;
+    }
+
+    .hotel-cards-section{
+        width: 100%;
+        margin-bottom: 12px;
+    }
+    
+    .show-more{
+        display: none;
+    }
+}

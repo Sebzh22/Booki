@@ -1,4 +1,4 @@
-#title{
+#title-home-page{
     display: flex;
     flex-direction: column;
     padding-top: 59px;
@@ -36,7 +36,7 @@ form #search-bar{
     font-weight: 700;
 }
 
-form .search-bouton-desktop{
+form .search-button-desktop{
     font-size: 18px;
     font-weight: 700;
     color: white;
@@ -47,7 +47,7 @@ form .search-bouton-desktop{
     border-radius: 0px 15px 15px 0px;
 }
 
-form .search-bouton-mobile{
+form .search-button-mobile{
     display: none;
 }
 
@@ -57,7 +57,7 @@ form .search-bouton-mobile{
 
 @media all and (max-width: 768px) {
 
-    #title{
+    #title-home-page{
         padding-top: 31px;
     }
     
@@ -65,11 +65,11 @@ form .search-bouton-mobile{
         padding: 36px 0 34px 0;
     }
 
-    form .search-bouton-desktop{
+    form .search-button-desktop{
         display: none;
     }
 
-    form .search-bouton-mobile{
+    form .search-button-mobile{
         display: block;
         font-size: 18px;
         font-weight: 700;

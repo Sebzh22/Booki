@@ -15,15 +15,7 @@ p.filter-element-name{
     font-weight: 700;
 }
 
-/* div .filter-elements{
-    width: 828px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-} */
-
-div .element{
+div .filter-element{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -34,17 +26,17 @@ div .element{
     margin: 0 40px 0 0;
 }
 
-div .element i{
+div .filter-element i{
     color: #0065FC;
     font-size: 20px;
     padding-right: 10px;
 }
 
-div .element:hover{
+div .filter-element:hover{
     background-color: #DEEBFF;
 }
 
-#information{
+#information-accommodation{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -76,21 +68,15 @@ div .information-icon {
         padding-bottom: 20px;
     }
     
-    /* div .filter-elements{
-        display: flex;
-        width: auto;
-        flex-direction: row;
-        flex-wrap: wrap;
-    } */
 
-    div .element{
+    div .filter-element{
         width: 45%;
         height: 46px;
         padding: 0;
         margin: 0 10px 17px 0;
     }
 
-    div .element i{
+    div .filter-element i{
         font-size: 19px;
         padding-right: 5px;
         padding-left: 13px;
@@ -100,7 +86,7 @@ div .information-icon {
         font-size: 11px;
     }
 
-    div .element:hover{
+    div .filter-element:hover{
         background-color: white;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }

@@ -37,7 +37,7 @@
     margin-right: 40px;
 }
 
-.hotel-section{
+.hotel-search-result-section{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -45,7 +45,7 @@
     margin-top: 20px;
 }
 
-.hotel-cards-section{
+.hotel-card-search-result{
     background-color: white;
     width: 31%;
     height: 199px;
@@ -55,11 +55,11 @@
     box-shadow: 1px 1px 5px #d9d9d9;
 }
 
-.hotel-cards-section:hover{
+.hotel-card-search-result:hover{
     transform: scale(1.05);
 }
 
-.hotel-section img{
+.hotel-search-result-section img{
     box-sizing: border-box;
     width: 100%;
     height: 124px;
@@ -69,7 +69,7 @@
 }
 
 
-.card1-body{
+.card-search-result-body{
     padding-left: 11px;
     height: 75px;
     display: flex;
@@ -77,13 +77,13 @@
     justify-content: space-between;
 }
 
-.card1-price p{
+.card-price p{
     font-size: 14px;
     /* padding: 9px 0; */
 }
 
 
-.card1-classification{
+.card-classification{
     display: flex;
     flex-wrap: nowrap;
     padding-bottom: 11px;
@@ -94,13 +94,13 @@
 
 
 
-.title-populaire{
+.populare-accommodation-title{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.title-populaire i{
+.populare-accommodation-title i{
     color: #0065FC;
 }
 
@@ -113,14 +113,14 @@
     padding: 3%;
 }
 
-.hotel-populaire{
+.populare-accommodation-section{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: column;
 }
 
-.hotel-populaire-cards{
+.populare-accommodation-card{
     background-color: white;
     width: 100%;
     height: 144px;
@@ -130,17 +130,17 @@
     box-shadow: 1px 1px 5px #d9d9d9;
 }
 
-.hotel-populaire-cards:hover{
+.populare-accommodation-card:hover{
     transform: scale(1.05);
 }
 
-.populaire-card-containt{
+.populare-accommodation-card-containt{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     width: 100%;
 }
-.hotel-populaire-cards img{
+.populare-accommodation-card img{
     box-sizing: border-box;
     height: 100%;
     width: 137px;
@@ -149,11 +149,11 @@
     border: 5px solid #FFFFFF;
 }
 
-.card2-image{
+.populare-accommodation-card-image{
     height: 144px;
 }
 
-.card2-body{
+.populare-accommodation-card-body{
     height: 144px;
     padding-left: 11px;
     display: flex;
@@ -181,31 +181,31 @@
         flex-direction: column;
     }
 
-    .hotel-populaire{
+    .populare-accommodation-section{
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-between;
         flex-direction: row;
     }
 
-    .hotel-populaire-cards{
+    .populare-accommodation-card{
         width:32%
     }
 
-    .card2-image img{
+    .populare-accommodation-card-image img{
         width: 106px;
     }
 
-    .card2-body{
+    .populare-accommodation-card-body{
         padding-left: 5px;
         padding-right: 8px;
     }
 
-    .card2-body h3{
+    .populare-accommodation-card-body h3{
         font-size: 14px;
     }
 
-    .card2-body p{
+    .populare-accommodation-card-body p{
         font-size: 13px;
     }
 
@@ -225,11 +225,11 @@
         padding: 25px 20px 0 20px;
     }
 
-    .hotel-section{
+    .hotel-search-result-section{
         flex-direction: column;
     }
 
-    .hotel-cards-section{
+    .hotel-card-search-result{
         width: 100%;
         margin-bottom: 12px;
     }
@@ -243,32 +243,32 @@
         padding: 0 20px 0 20px;
     }
 
-    .title-populaire{
+    .populare-accommodation-title{
         padding-top: 25px;
     }
 
-    .hotel-populaire{
+    .populare-accommodation-section{
         flex-direction: column;
         padding-bottom: 45px;
     }
 
-    .hotel-populaire-cards{
+    .populare-accommodation-card{
         width: 100%;
     }
 
-    .card2-image img{
+    .populare-accommodation-card-image img{
         width: 137px;
     }
 
-    .card2-body h3{
+    .populare-accommodation-card-body h3{
         font-size: 16px;
     }
 
-    .card2-body p{
+    .populare-accommodation-card-body p{
         font-size: 14px;
     }
 
-    .card2-body{
+    .cpopulare-accommodation-card-body{
         padding-left: 14px;
         padding-right: 10px;
     }

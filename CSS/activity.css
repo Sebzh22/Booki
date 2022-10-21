@@ -20,6 +20,11 @@
     border-radius: 20px;
     margin: 20px 0 60px 0;
     box-shadow: 1px 1px 5px #d9d9d9;
+    transition: all 0.5s ease;
+}
+
+.activity-card:hover{
+    filter: saturate(4);
 }
 
 .activity-card a{
@@ -68,4 +73,18 @@
         object-fit: cover;
         border-radius: 20px 20px 0 0;
     }
+}
+
+@media all and (max-width: 992px) {
+
+    .activity-card{
+        height: 267px;
+    }
+
+    .activity-card img{
+        height: 211px;
+        object-fit: cover;
+        border-radius: 20px 20px 0 0;
+    }
+
 }

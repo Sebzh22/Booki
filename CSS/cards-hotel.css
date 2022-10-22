@@ -48,7 +48,7 @@
 .hotel-card-search-result{
     background-color: white;
     width: 31%;
-    height: 199px;
+    height: 230px;
     margin-bottom: 30px;
     border-radius: 20px;
     transition: transform .1s;
@@ -60,9 +60,8 @@
 }
 
 .hotel-search-result-section img{
-    box-sizing: border-box;
     width: 100%;
-    height: 124px;
+    height: 145px;
     object-fit: cover;
     border: 5px solid #FFFFFF;
     border-radius: 20px 20px 0 0;

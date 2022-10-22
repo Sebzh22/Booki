@@ -6,21 +6,3 @@
 @import url("cards-hotel.css");
 @import url("activity.css");
 @import url("footer.css");
-
-
-/* *, *:after, *:before{
-    box-sizing: border-box;
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-} */
-
-/*Add custom elements*/
-
-
-@media screen and (max-width: 992px) {
-  
-}
-
-@media screen and (max-width: 768px) {
-  
-}

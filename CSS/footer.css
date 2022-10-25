@@ -13,11 +13,12 @@ footer{
 footer .footer-subcontent{
     padding-top: 45px;
     padding-bottom: 58px;
+    margin-left: 20px;
     flex: 1 1 0;
 }
 
 footer .footer-first-subcontent{
-    padding-left: 70px;
+    padding-left: 50px;
 }
 
 footer ul{
@@ -56,9 +57,4 @@ footer a{
         padding-left: 0px;
     }
 
-/* @media all and (max-width: 992px) and (min-width: 769px) {
-
-    footer .footer-first-subcontent{
-        padding-left: 10px;
-    }
-} */
+}

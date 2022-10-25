@@ -1,24 +1,21 @@
-div .filter{
+.filter{
     display: flex;
-    flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
     padding-bottom: 35px;
 }
 
-h4.filter-title{
+.filter-title{
     padding-right: 32px;
 }
 
-p.filter-element-name{
+.filter-element-name{
     font-size: 17px;
     font-weight: 700;
 }
 
-div .filter-element{
+.filter-element{
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     align-items: center;
     padding: 14px 20px;
     border: 2px solid #D9D9D9;
@@ -26,24 +23,22 @@ div .filter-element{
     margin: 0 10px 0 0;
 }
 
-div .filter-element i{
+.filter-element i{
     color: #0065FC;
     font-size: 20px;
     padding-right: 10px;
 }
 
-div .filter-element:hover{
+.filter-element:hover{
     background-color: #DEEBFF;
 }
 
 #information-accommodation{
     display: flex;
-    flex-direction: row;
-    align-items: center;
     padding-bottom: 35px;
 }
 
-div .information-icon {
+.information-icon {
     border: 1px solid #D9D9D9;
     border-radius: 50px;
     width: 24px;
@@ -57,42 +52,39 @@ div .information-icon {
 
 /* Media Query */
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 850px) {
 
     .filter-title{
         width: 100%;
         margin-bottom: 10px;
     }
 
-    div .filter{
+    .filter{
         padding-bottom: 20px;
     }
-    
 
-    div .filter-element{
+
+    .filter-element{
         width: 45%;
-        height: 46px;
-        padding: 0;
         margin: 0 10px 17px 0;
     }
 
-    div .filter-element i{
+    .filter-element i{
         font-size: 19px;
         padding-right: 5px;
-        padding-left: 13px;
     }
 
     p.filter-element-name{
         font-size: 11px;
     }
 
-    div .filter-element:hover{
+    .filter-element:hover{
         background-color: white;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
 }
 
-@media all and (max-width: 935px) and (min-width: 769px) {
+@media all and (max-width: 935px) and (min-width: 850px) {
 
     .filter-title{
         width: 100%;
